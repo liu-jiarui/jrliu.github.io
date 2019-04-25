@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://liu-jiarui.github.com/"/>
   <updated>2019-04-25T13:27:36.553Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://liu-jiarui.github.com/</id>
   
   <author>
     <name>jrliu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2019/04/25/HashMap%E4%B8%8EHashSet/"/>
-    <id>http://yoursite.com/2019/04/25/HashMap与HashSet/</id>
+    <link href="http://liu-jiarui.github.com/2019/04/25/HashMap%E4%B8%8EHashSet/"/>
+    <id>http://liu-jiarui.github.com/2019/04/25/HashMap与HashSet/</id>
     <published>2019-04-25T13:27:36.553Z</published>
     <updated>2019-04-25T13:27:36.553Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>hello-hex</title>
-    <link href="http://yoursite.com/2019/04/24/hello-hex/"/>
-    <id>http://yoursite.com/2019/04/24/hello-hex/</id>
+    <link href="http://liu-jiarui.github.com/2019/04/24/hello-hex/"/>
+    <id>http://liu-jiarui.github.com/2019/04/24/hello-hex/</id>
     <published>2019-04-23T16:24:57.000Z</published>
     <updated>2019-04-23T16:24:57.669Z</updated>
     
