@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liu-jiarui.github.com/"/>
-  <updated>2019-04-25T13:27:36.553Z</updated>
+  <updated>2019-04-25T15:31:14.001Z</updated>
   <id>http://liu-jiarui.github.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo+github搭建私人博客</title>
+    <link href="http://liu-jiarui.github.com/2019/04/25/hexo-github%E6%90%AD%E5%BB%BA%E7%A7%81%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://liu-jiarui.github.com/2019/04/25/hexo-github搭建私人博客/</id>
+    <published>2019-04-25T15:30:48.000Z</published>
+    <updated>2019-04-25T15:31:14.001Z</updated>
+    
+    <content type="html"><![CDATA[<p>A. 首先创建一个文件夹，如blog，用来存放hexo的配置文件等，然后进入blog进行操作。</p><ol><li>初始化<br>右键 git bash，执行以下命令:<br>hexo init</li><li>安装依赖包<br>npm install</li><li>生成静态页面<br>hexo generate或者hexo g</li><li>本地运行<br>hexo server或者hexo s<br>打开浏览器，在地址栏输入localhost:4000，就可以看到我们搭建好的本地博客了。到此只是搭建好了本地博客，还需要将博客部署到github上。</li></ol><p>B. 配置github</p><ol><li>新建repository<br>建立与你用户名对应的仓库，仓库名必须为【 your_username.github.io】，例如我的是liu-jiarui.github.io。</li><li>部署博客<br>进入你的hexo文件夹根目录下，用编辑器打开_config.yml，修改deploy项，如下（根据你的github进行相应更改）：<br>deploy:<br>type: git       #注意：有的版本type是github<br>repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:liu-jiarui/liu-jiarui.github.io.git<br>branch: master</li></ol><p>此时就完成部署了用浏览器访问liu-jiarui.github.io即可(第一次发布可能会有10分钟的延迟)。<br>每次修改完本地的文件后要执行以下命令，重新部署到github上：<br>hexo clean<br>hexo generate<br>hexo deploy或者hexo d</p><p>C. 常用命令如下：<br>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub<br>hexo help # 查看帮助<br>hexo version #查看Hexo的版本<br>报错总结<br>1.出现 error deployer not found:git 或者 error deployer not found:github 的错误<br>解决办法：执行 npm install hexo-deployer-git –save<br>2.出现类似 FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 70, column 1: … 错误<br>解决办法：_config.yml中配置项的冒号后面要用空格隔开，再跟内容<br>3.中文乱码问题<br>解决办法：将文件的内容编码改为UTF8格式<br>4.’hexo sever’能够成功运行，但是localhost:4000无法访问<br>解决办法：执行hexo s -p 5000，改用其他端口启动</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;A. 首先创建一个文件夹，如blog，用来存放hexo的配置文件等，然后进入blog进行操作。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初始化&lt;br&gt;右键 git bash，执行以下命令:&lt;br&gt;hexo init&lt;/li&gt;
+&lt;li&gt;安装依赖包&lt;br&gt;npm install&lt;/li&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
